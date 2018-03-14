@@ -8,6 +8,16 @@
     src: url('sui.ttf');
 }
 
+.bigFont {
+	font-size: 120px;
+}
+
+@media (max-width: 600px) {
+  .bigFont {
+    font-size: 80px !important;
+  }
+}
+
 .beatsAni {
     position: relative;
     margin-top: 40px;
@@ -136,11 +146,6 @@ h6 {
   height: 30rem;
 }
 
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
 
 .map iframe {
   pointer-events: none;
