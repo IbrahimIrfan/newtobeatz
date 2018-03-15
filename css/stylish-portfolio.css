@@ -20,7 +20,7 @@
 
 .beatsAni {
     position: relative;
-    margin-top: 40px;
+    margin-top: 35px;
 	margin-left: 8px;
 }
 
@@ -188,6 +188,10 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#about {
+	background-color: #ccc;
 }
 
 .masthead h1 {
