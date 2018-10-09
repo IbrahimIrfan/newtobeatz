@@ -9,13 +9,17 @@
 }
 
 .bigFont {
-	font-size: 120px;
+	font-size: 220px;
 }
 
 @media (max-width: 600px) {
   .bigFont {
     font-size: 80px !important;
   }
+
+.mb-1{
+    font-size: 40px !important;
+}
 }
 
 .beatsAni {
@@ -110,6 +114,7 @@ body {
 	color: white;
 	font-family: chinyen !important;
 	font-weight: 200 !important;
+	font-size: 150px !important;
 }
 
 .mb-5 {
